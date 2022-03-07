@@ -26,6 +26,16 @@ body::before {
   height: 100vh;
   z-index: -1;
 }
+
+@media (max-width: 368px) {
+  body::before {
+    height: 70vh;
+    right: -60px;
+    bottom: 0;
+    top: auto;
+  }
+}
+
 @media (min-width: 1024px) {
   body::before {
     background-attachment: fixed;
